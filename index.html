@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTAL DE NOTÍCIAS GALACTICA</title>
+    <link rel="stylesheet" href="styles/card.css">
+    <script src="src/Components/CardNews.js" defer></script>
+    <!--Atenção! Sem o defer, os componentes podem rodar de forma embaralhada e não aparecer corretamente-->
+</head>
+<body>
+    <div class="container">
+        <card-news 
+        autor="Duda"
+        title="Darth Vader Contrata"
+        link-url="www.google.com"
+        content="Lorde Vader procura desenvolvedores que sabem trabalhar com componentes."
+        photo="assets/asset-vader.png"
+        
+    >
+    </card-news>
+
+    <card-news 
+        title="Yoda convence republica a utilizar components"
+        link-url="www.google.com/yoda"
+        content="Yoda se pronuncia e choca a republica."
+    ></card-news>
+
+    <card-news
+        title="R2D2 se oferece como dev"
+        link-url="www.google.com/r2d2"
+        content="R2D2 oferece seus trabalhos como dev para atuar com componentes."
+        photo="assets/r2-d2.jpg"
+     ></card-news>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+/*COMENTARIOS DO CARDNEWS*/
+/*Pesquisar no Google Box Shadow Generator. Existe um site que auxilia com a estilização da box shadow*/
+/* flex-direction: row; faz com que os cards da direita e da esquerda se alinhem em uma linha, não em uma coluna*/
+/*OBS: se fosse flex-direction: column, o alinhamento seria em coluna, ou seja, um card acima do outro*/
+/* justify-content: center; Deixa o texto centralizado (não muito pra cima nem muito pra baixo)*/
+/* text-decoration: none; Deixa sem o sublinhado que fica quando tem link*/
